@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <link rel="stylesheet" href="./ext.css">
+
+</head>
+<body class="bg-background">
+    <div class="w-10 h-10">
+        <img src="./image/pngtree.jpg" alt="" class="w-auto h-auto rounded-full">
+    </div>
+
+
+
+    <div class="items-center">
+        <div class="text-white text-center">
+            <p class="text-[15px]">Total Balance</p>
+            <h2 class="font-bold text-3xl">$2,589.50</h2>
+
+        </div>
+    </div>
+
+    <div class="flex text-white gap-7 mt-5 justify-center">
+        <div class="justify-items-center send-sec" id="openModal">
+            <div class="sec-two">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+            <p>Send</p>
+        </div>
+
+        <div class="justify-items-center send-sec">
+            <div class="sec-two">
+                <i class="fa-regular fa-square-plus"></i>
+            </div>
+            <p>Fund</p>
+        </div>
+
+        <div class="justify-items-center send-sec">
+            <div class="sec-two">
+                <i class="fa-solid fa-arrows-rotate"></i>
+            </div>
+            <p>Swap</p>
+        </div>
+
+        <div class="justify-items-center send-sec">
+            <div class="sec-two">
+                <i class="fa-solid fa-building-columns"></i>
+            </div>
+            <p>Sell</p>
+        </div>
+    </div>
+
+    <div class="mt-10 text-black bg-white h-svh rounded-4xl">
+
+        <h1 class="ml-5 font-bold text-[15px] pt-4">Tokens</h1>
+        <div class="flex justify-between px-5 mt-5">
+            <div class="flex gap-2">
+                <img src="./image/bitcoin-btc-logo.png" alt="" class="w-10 h-10">
+                <div>
+                    <h1 class="font-bold">BTC</h1>
+                    <p class="text-[10px]">$2,589.50</p>
+                </div>
+            </div>
+
+            <div>
+                <h3>$89,593</h3>
+                <p>+0.89%</p>
+            </div>
+        </div>
+
+        
+        <div class="flex justify-between px-5 mt-3">
+            <div class="flex gap-2">
+                <img src="./image/ethereum-eth-logo.png" alt="" class="w-10 h-10">
+                <div>
+                    <h1 class="font-bold">ETH</h1>
+                    <p class="text-[10px]">$0.00</p>
+                </div>
+            </div>
+
+            <div>
+                <h3>$0.00</h3>
+                <p>+0.00%</p>
+            </div>
+        </div>
+
+
+        <div class="flex justify-between px-5 mt-3">
+            <div class="flex gap-2">
+                <img src="./image/bnb.png" alt="" class="w-10 h-10">
+                <div>
+                    <h1 class="font-bold">BNB</h1>
+                    <p class="text-[10px]">$0.00</p>
+                </div>
+            </div>
+
+            <div>
+                <h3>$0.00</h3>
+                <p>+0.00%</p>
+            </div>
+        </div>
+
+
+        <div class="flex justify-between px-5 mt-3">
+            <div class="flex gap-2">
+                <img src="./image/xrp.png" alt="" class="w-10 h-10">
+                <div>
+                    <h1 class="font-bold">XRP</h1>
+                    <p class="text-[10px]">$0.00</p>
+                </div>
+            </div>
+
+            <div>
+                <h3>$0.00</h3>
+                <p>+0.00%</p>
+            </div>
+        </div>
+
+
+        <div class="flex justify-between px-5 mt-3">
+            <div class="flex gap-2">
+                <img src="./image/USDT_Logo.png" alt="" class="w-10 h-10">
+                <div>
+                    <h1 class="font-bold">USDT</h1>
+                    <p class="text-[10px]">$0.00</p>
+                </div>
+            </div>
+
+            <div>
+                <h3>$0.00</h3>
+                <p>+0.00%</p>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <!-- <button id="openModal">Open Modal</button> -->
+    
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <h2 class="font-bold">Error!</h2>
+            <p class="text-sm">
+                To withdraw your earnings, please contact the admin
+            </p>
+        </div>
+    </div>
+
+
+
+
+    
+
+
+
+
+
+
+    <script src="./web.js"></script>
+
+
+</body>
+</html>
