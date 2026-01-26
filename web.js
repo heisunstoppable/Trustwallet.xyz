@@ -1,6 +1,6 @@
 // Change these to your own username and password
-const correctUser = "SkyTee";
-const correctPass = "SkyTee";
+const correctUser = "Skyound";
+const correctPass = "Lovely102";
 
 function login() {
     const username = document.getElementById('user').value;
@@ -75,3 +75,4 @@ document.addEventListener("click", (e) => {
 
 
   
+
