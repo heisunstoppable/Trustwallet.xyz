@@ -81,3 +81,22 @@ button {
   cursor: pointer;
   font-size: 20px;
 }
+
+
+.hamburger{
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+}
+.nav{
+    box-shadow: 3px 3px 5px white;
+    background-color: #29529f;
+    display: none;
+    top: 0;
+    position: absolute;
+}
+
+.nav.active{
+    display: block;
+}
+
